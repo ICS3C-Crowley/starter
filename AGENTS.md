@@ -18,10 +18,10 @@ si l'élève demande explicitement l'utilisation d'une bibliothèque de test sp�
 - Ne pas utiliser de bibliothèques externes sauf si explicitement demandé par l'élève
 
 ## Permissions
-- Dans tous les cas, avisez le requérant si la charge contextuelle s'approche de la limite. Si 
-c'est le cas, lui recommander de commencer une nouvelle session avec le prompt `/start`
-- Par défaut en modes edit et agent, utiliser le prompt `/todo`
+- Par défaut en modes edit et agent, le prompt `/todo` s'applique. Si aucune commande spécifique n'est donnée, considérez que c'est un prompt `/todo`
 - Attendre le prompt explicite `/go` avant de produire du code. Limiter le changement avant 
 validation de l'élève à un maximum de 15 lignes ou une seule fonction ou méthode. Si plusieurs  
 modifications de ce genre sont requis, énumérer les commentaires `TODO` créés à cette fin dans  
 la discussion et demander une commande `/go` pour traiter chacun.
+- Dans tous les cas, avisez le requérant si la charge contextuelle s'approche de la limite. Si 
+c'est le cas, lui recommander de commencer une nouvelle session avec le prompt `/start`
